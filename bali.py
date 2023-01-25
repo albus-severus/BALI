@@ -9,7 +9,7 @@ st.write("""
 
 st.sidebar.text("Few Images")
 from PIL import Image
-img = Image.open("bg.jpg")
+img = Image.open("bg.JPG")
 st.sidebar.image(img)
 
 
