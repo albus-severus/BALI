@@ -49,7 +49,7 @@ with tab1:
     <li>Take printouts of tickets, Xerox of passport, Vaccination Certificates, Prebooked Hotel stays (1-2 days),and 35$ cash/person for visa (if possible).
     <li>For Health Declaration Download PeduliLindungi app on your mobile phone. as Airport wifi at Denpasar airport may be weak. """, unsafe_allow_html=True)
     from PIL import Image
-    img6 = Image.open("pedungi.jpg")
+    img6 = Image.open("pedungi.JPG")
     st.image(img6)
     st.markdown("""<p align="justify": style="font-size:15px;color:blue;font-family:Comic-Sans;">
     <li> Also download utility apps like Gojek, Grab, Klook etc (like ola, uber, swiggy) etc and integrate Niyo card in it to avail cashless taxi, food, activity bookings.  
@@ -60,7 +60,7 @@ with tab1:
     <li> For driving or renting vehicles in Bali, Its better to carry an International Driving Permit. Apply it with your state RTO . 
     Takes around 1 week and Costs around Rs. 1000. Go to below website & Go to your DL Issuing State & Follow the lead""", unsafe_allow_html=True)
     from PIL import Image
-    img7 = Image.open("idp.jpg")
+    img7 = Image.open("idp.JPG")
     st.image(img7)
     
 
