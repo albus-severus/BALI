@@ -121,7 +121,7 @@ with tab3:
  <br><br>Suggestion#3-(day3)--Book hotel in market area  for better food availability , the driver will help in this if not booked previously.  We lived in SANTEN BEACH BUNGLOWS, which was on the beach but little secluded. Hotels near Banjar NYUH Harbor area will be better in case transfer needed to gilli islands the next morning. 
  </body>""", unsafe_allow_html=True)
  from PIL import Image
- imgg = Image.open("speedboat.jpg")
+ imgg = Image.open("speedboat.JPG")
  st.image(imgg)
  st.markdown("""<p align="center">Speed Boat""", unsafe_allow_html=True)
  from PIL import Image
