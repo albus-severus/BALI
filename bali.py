@@ -125,15 +125,15 @@ with tab3:
  st.image(imgg)
  st.markdown("""<p align="center">Speed Boat""", unsafe_allow_html=True)
  from PIL import Image
- imgd = Image.open("diamond.jpg")
+ imgd = Image.open("diamond.JPG")
  st.image(imgd)
  st.markdown("""<p align="center">Diamond Beach""", unsafe_allow_html=True)
  from PIL import Image
- imge = Image.open("kellingking.jpg")
+ imge = Image.open("kellingking.JPG")
  st.image(imge)
  st.markdown("""<p align="center">Kellingking Beach""", unsafe_allow_html=True)
  from PIL import Image
- imgf = Image.open("broken_beach.jpg")
+ imgf = Image.open("broken_beach.JPG")
  st.image(imgf)
  st.markdown("""<p align="center">Broken Beach""", unsafe_allow_html=True)
 #  st.image("one.jpg",width =500 )
@@ -191,7 +191,7 @@ with tab5:
  
  
  from PIL import Image
- imgk = Image.open("swing.jpg")
+ imgk = Image.open("swing.JPG")
  st.image(imgk)
  st.markdown("""<p align="center">Bali Swings""", unsafe_allow_html=True)
  from PIL import Image
@@ -206,7 +206,7 @@ with tab5:
  imgn = Image.open("tukad.jpg")
  st.image(imgn)
  st.markdown("""<p align="center">Tukad Cepung waterfall""", unsafe_allow_html=True)
- imgo = Image.open("tirtaganga.jpg")
+ imgo = Image.open("tirtaganga.JPG")
  st.image(imgo)
  st.markdown("""<p align="center">Tirta Ganga""", unsafe_allow_html=True)
 
